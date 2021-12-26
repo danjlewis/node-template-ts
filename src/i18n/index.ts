@@ -1,4 +1,6 @@
 import fs from 'fs';
+import path from 'path';
+import url from 'url';
 
 export interface LanguageObject {
     [key: string]: string
@@ -30,7 +32,7 @@ export class Language {
     }
 
     private loadLang(): void {
-        const target: string = `./${this.langCode}.json`;
+        const target: string = path.join(path.dirname(url.fileURLToPath(import.meta.url)), `${this.langCode}.json`);
         try {
             this.langObject = JSON.parse(fs.readFileSync(target).toString());
         } catch (e) {
