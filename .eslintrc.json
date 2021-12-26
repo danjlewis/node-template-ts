@@ -33,11 +33,12 @@
         "block-spacing": "off",
         "no-console": "off",
         "indent": "off",
+        "object-curly-spacing": "off",
         "no-unused-vars": "off",
         "no-useless-return": "warn",
         "@typescript-eslint/typedef": ["warn", {"arrayDestructuring": false, "arrowParameter": true, "memberVariableDeclaration": true, "objectDestructuring": false, "parameter": true, "propertyDeclaration": true, "variableDeclaration": true, "variableDeclarationIgnoreFunction": true}],
         "@typescript-eslint/no-unused-vars": "warn",
-        "object-curly-spacing": ["error", "never"],
+        "@typescript-eslint/object-curly-spacing": ["error", "never"],
         "@typescript-eslint/indent": ["error", 4, {"SwitchCase": 1}],
         "no-multi-spaces": ["error", {"ignoreEOLComments": true}],
         "import/order": ["error", {"groups": ["builtin", "external", "internal", "parent", "sibling", "index", "object", "type"]}]
