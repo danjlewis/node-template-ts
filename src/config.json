@@ -1,0 +1,8 @@
+{
+    "logging": {
+        "lang": "en",
+        "logFolder": "./logs",
+        "verbosity": 2,
+        "fileVerbosity": 3
+    }
+}

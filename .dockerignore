@@ -1,0 +1,8 @@
+node_modules
+logs
+*.env
+.gitignore
+Dockerfile
+.dockerignore
+.eslintrc.json
+*.code-workspace

@@ -1,0 +1,5 @@
+{
+    "process.log.initializing": "Initializing... ",
+    "process.log.shuttingDown": "Shutting down... ",
+    "process.log.done": "done."
+}
