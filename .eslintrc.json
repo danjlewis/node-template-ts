@@ -36,6 +36,8 @@
         "import/prefer-default-export": "off",
         "object-curly-spacing": "off",
         "no-use-before-define": "off",
+        "no-shadow": "off",
+        "no-param-reassign": "off",
         "no-unused-vars": "off",
         "no-useless-return": "warn",
         "@typescript-eslint/typedef": ["warn", {"arrayDestructuring": false, "arrowParameter": true, "memberVariableDeclaration": true, "objectDestructuring": false, "parameter": true, "propertyDeclaration": true, "variableDeclaration": true, "variableDeclarationIgnoreFunction": true}],
